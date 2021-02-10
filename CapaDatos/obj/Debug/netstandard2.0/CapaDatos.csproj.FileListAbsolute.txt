@@ -1,0 +1,9 @@
+F:\GitHub\Pedidos\CapaDatos\bin\Debug\netstandard2.0\CapaDatos.deps.json
+F:\GitHub\Pedidos\CapaDatos\bin\Debug\netstandard2.0\CapaDatos.dll
+F:\GitHub\Pedidos\CapaDatos\bin\Debug\netstandard2.0\CapaDatos.pdb
+F:\GitHub\Pedidos\CapaDatos\obj\Debug\netstandard2.0\CapaDatos.csprojAssemblyReference.cache
+F:\GitHub\Pedidos\CapaDatos\obj\Debug\netstandard2.0\CapaDatos.AssemblyInfoInputs.cache
+F:\GitHub\Pedidos\CapaDatos\obj\Debug\netstandard2.0\CapaDatos.AssemblyInfo.cs
+F:\GitHub\Pedidos\CapaDatos\obj\Debug\netstandard2.0\CapaDatos.csproj.CoreCompileInputs.cache
+F:\GitHub\Pedidos\CapaDatos\obj\Debug\netstandard2.0\CapaDatos.dll
+F:\GitHub\Pedidos\CapaDatos\obj\Debug\netstandard2.0\CapaDatos.pdb

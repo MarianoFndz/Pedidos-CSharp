@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="Pedidos" Class="DCDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=localhost\SQLEXPRESS;Initial Catalog=Pedidos;User ID=mariano" SettingsObjectName="Capa_Datos.Properties.Settings" SettingsPropertyName="PedidosConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.DetallePedido" Member="eDetallePedido">
+    <Type Name="eDetallePedido">
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="fkProducto" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="fkPedido" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="cantidad" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="eProducto_eDetallePedido" Member="eProducto" ThisKey="fkProducto" OtherKey="id" Type="eProducto" IsForeignKey="true" />
+      <Association Name="Pedido_eDetallePedido" Member="ePedido" ThisKey="fkPedido" OtherKey="id" Type="ePedido" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Producto" Member="eProducto">
+    <Type Name="eProducto">
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="nombre" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Association Name="eProducto_eDetallePedido" Member="eDetallePedido" ThisKey="id" OtherKey="fkProducto" Type="eDetallePedido" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Usuario" Member="eUsuario">
+    <Type Name="eUsuario">
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="nombre" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="contraseña" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Association Name="eUsuario_Pedido" Member="ePedido" ThisKey="id" OtherKey="fkUsuario" Type="ePedido" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Pedido" Member="ePedido">
+    <Type Name="ePedido">
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="fkUsuario" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="direccion" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="fechaCreacion" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="fechaDespacho" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="despachado" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Association Name="Pedido_eDetallePedido" Member="eDetallePedido" ThisKey="id" OtherKey="fkPedido" Type="eDetallePedido" />
+      <Association Name="eUsuario_Pedido" Member="eUsuario" ThisKey="fkUsuario" OtherKey="id" Type="eUsuario" IsForeignKey="true" />
+    </Type>
+  </Table>
+</Database>

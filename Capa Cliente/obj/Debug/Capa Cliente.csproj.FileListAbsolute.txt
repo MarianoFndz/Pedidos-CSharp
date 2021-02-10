@@ -1,0 +1,20 @@
+F:\GitHub\Pedidos\Capa Cliente\bin\Debug\Capa Cliente.exe.config
+F:\GitHub\Pedidos\Capa Cliente\bin\Debug\Capa Cliente.exe
+F:\GitHub\Pedidos\Capa Cliente\bin\Debug\Capa Cliente.pdb
+F:\GitHub\Pedidos\Capa Cliente\bin\Debug\Capa_Negocio.dll
+F:\GitHub\Pedidos\Capa Cliente\bin\Debug\Capa_Datos.dll
+F:\GitHub\Pedidos\Capa Cliente\bin\Debug\Capa_Negocio.pdb
+F:\GitHub\Pedidos\Capa Cliente\bin\Debug\Capa_Datos.pdb
+F:\GitHub\Pedidos\Capa Cliente\bin\Debug\Capa_Datos.dll.config
+F:\GitHub\Pedidos\Capa Cliente\obj\Debug\Capa Cliente.csprojAssemblyReference.cache
+F:\GitHub\Pedidos\Capa Cliente\obj\Debug\Capa_Cliente.FormCrearPedido.resources
+F:\GitHub\Pedidos\Capa Cliente\obj\Debug\Capa_Cliente.FormLogin.resources
+F:\GitHub\Pedidos\Capa Cliente\obj\Debug\Capa_Cliente.Properties.Resources.resources
+F:\GitHub\Pedidos\Capa Cliente\obj\Debug\Capa Cliente.csproj.GenerateResource.cache
+F:\GitHub\Pedidos\Capa Cliente\obj\Debug\Capa Cliente.csproj.CoreCompileInputs.cache
+F:\GitHub\Pedidos\Capa Cliente\obj\Debug\Capa Cliente.csproj.CopyComplete
+F:\GitHub\Pedidos\Capa Cliente\obj\Debug\Capa Cliente.exe
+F:\GitHub\Pedidos\Capa Cliente\obj\Debug\Capa Cliente.pdb
+F:\GitHub\Pedidos\Capa Cliente\obj\Debug\Capa_Cliente.FormAdmin.resources
+F:\GitHub\Pedidos\Capa Cliente\obj\Debug\Capa_Cliente.FormDespachoPedido.resources
+F:\GitHub\Pedidos\Capa Cliente\obj\Debug\Capa_Cliente.FormPedido.resources
